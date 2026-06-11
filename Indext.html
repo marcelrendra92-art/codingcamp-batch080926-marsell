@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en"
+
+<head>
+    <neta cherset="UTF-8">
+    <neta name="view port" content="width=device-width, initial-scale=1.0">
+        <title>Toko Marsel - Belanja mudah dan hemat</title> 
+        <link rel="steyleseet" href="stly. css">
+
+    </head>
+        <body>
+<header>
+        <div class="logo">Toko Marsell</div>
+    </header>
+
+    <main class="container">
+        <div class="product-box">
+            <div class="product-image">
+                <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&q=80" alt="Sepatu Marsell">
+            </div>
+            
+            <div class="product-details">
+                <span class="badge">Produk Terlaris</span>
+                <h1>Sepatu Sneakers Marsell X1</h1>
+                <p class="price">Rp 350.000</p>
+                <p class="description">
+                    Rasakan kenyamanan maksimal setiap hari dengan Sepatu Sneakers Marsell X1. 
+                    Didesain modern, ringan, dan menggunakan bahan premium berpori agar kaki Anda tidak mudah gerah. 
+                    Cocok untuk olahraga maupun kasual.
+                </p>
+                
+                <div class="order-section">
+                    <button id="btn-beli" class="btn-buy">Beli Sekarang Via WhatsApp</button>
+                    <p class="stock-info">⚡ Tersisa 5 pasang lagi hari ini!</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Toko Marsell. Hak Cipta Dilindungi.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+<header>
+        <div class="logo">Toko Marsell</div>
+    </header>
+
+    <main class="container">
+        <div class="product-box">
+            <div class="product-image">
+                <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&q=80" alt="Sepatu Marsell">
+            </div>
+            
+            <div class="product-details">
+                <span class="badge">Produk Terlaris</span>
+                <h1>Sepatu Sneakers Marsell X1</h1>
+                <p class="price">Rp 350.000</p>
+                <p class="description">
+                    Rasakan kenyamanan maksimal setiap hari dengan Sepatu Sneakers Marsell X1. 
+                    Didesain modern, ringan, dan menggunakan bahan premium berpori agar kaki Anda tidak mudah gerah. 
+                    Cocok untuk olahraga maupun kasual.
+                </p>
+                
+                <div class="order-section">
+                    <button id="btn-beli" class="btn-buy">Beli Sekarang Via WhatsApp</button>
+                    <p class="stock-info">⚡ Tersisa 5 pasang lagi hari ini!</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Toko Marsell. Hak Cipta Dilindungi.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+// Mengambil elemen tombol beli
+const tombolBeli = document.getElementById('btn-beli');
+
+// Ketika tombol diklik, akan mengarahkan ke sistem simulasi pemesanan
+tombolBeli.addEventListener('click', function() {
+    // Pesan otomatis yang akan dikirim
+    const produk = "Sepatu Sneakers Marsell X1";
+    const harga = "Rp 350.000";
+    
+    alert(`Terima kasih! Anda akan diarahkan untuk memesan:\n📦 ${produk}\n💰 ${harga}`);
+    
+    // Opsional: Anda bisa mengganti URL di bawah ini dengan nomor WA asli Anda nanti
+    // window.location.href = "https://wa.me/628123456789?text=Halo%20Toko%20Marsell,%20saya%20mau%20beli%20Sepatu%20X1";
+});
